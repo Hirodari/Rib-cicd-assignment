@@ -1,6 +1,6 @@
 # environment variables
 region       = "us-east-1"
-project_name = "Rib Demo"
+project_name = "Rib-Demo"
 environment  = "dev"
 
 # vpc environment
