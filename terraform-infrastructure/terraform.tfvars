@@ -9,17 +9,10 @@ public_subnet_az1_cidr       = "192.168.1.0/24"
 public_subnet_az2_cidr       = "192.168.2.0/24"
 private_app_subnet_az1_cidr  = "192.168.3.0/24"
 private_app_subnet_az2_cidr  = "192.168.4.0/24"
-# private_data_subnet_az1_cidr = "192.168.5.0/24"
-# private_data_subnet_az2_cidr = "192.168.6.0/24"
+
 
 # ssh environment
 ssh_ip = "0.0.0.0/0"
-
-# rds environment
-# db_snapshot_identifier = "dev-rds-db-id-rentzon-snapshot"
-# db_instance_class      = "db.t2.micro"
-# db_instance_identifier = "dev-rds-db-id"
-# multi_az_deployment    = "false"
 
 # acm variables
 domain_name       = "fredbitenyo.link"
