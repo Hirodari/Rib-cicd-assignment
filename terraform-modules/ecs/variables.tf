@@ -1,0 +1,12 @@
+variable "project_name" {}
+variable "environment" {}
+variable "ecs_task_execution_role_arn" {}
+variable "container_image" {}
+variable "env_file_bucket_name" {}
+variable "env_filename" {}
+variable "region" {}
+variable "cpu_architecture" {}
+variable "private_app_subnet_az1_id" {}
+variable "private_app_subnet_az2_id" {}
+variable "application_sg_id" {}
+variable "alb_target_group_arn" {}
