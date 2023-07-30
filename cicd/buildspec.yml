@@ -15,5 +15,4 @@ phases:
       - ./push-to-ecr.sh
       - ./apply-terraform.sh
       - echo Writing image definitions file...
-      - printf '[{"name":"hirodaridevdock/angular","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
-      - cat imagedefinitions.json
+      - echo deployment done at `date`
