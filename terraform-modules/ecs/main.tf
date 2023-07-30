@@ -79,6 +79,12 @@ resource "aws_ecs_service" "ecs_service" {
   enable_ecs_managed_tags = false
   propagate_tags          = "SERVICE"
 
+  # adding this for code deploy 
+
+   deployment_controller {
+      type = "CODE_DEPLOY"
+  }
+
   # vpc and security groups
   network_configuration {
     subnets          = [var.private_app_subnet_az1_id, var.private_app_subnet_az2_id]
