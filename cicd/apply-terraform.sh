@@ -10,8 +10,8 @@ cd ../terraform-infrastructure/
 terraform init
 
 # # apply terraform
-# terraform apply -auto-approve
+terraform apply -auto-approve
 # terraform plan
 
 # destroy terraform
-terraform destroy -auto-approve
+# terraform destroy -auto-approve
