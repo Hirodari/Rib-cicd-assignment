@@ -4,7 +4,7 @@
 set -eu
 
 # build docker image 
-docker build -t hirodaridevdock/angular angular-demo/.
+docker build -t hirodaridevdock/angular ../angular-demo/.
 
 # retag docker image 
 docker tag hirodaridevdock/angular $AWS_ACCOUNT.dkr.ecr.us-east-1.amazonaws.com/angular
