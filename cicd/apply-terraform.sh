@@ -11,7 +11,7 @@ terraform init
 
 # # apply terraform
 terraform apply -auto-approve
-# terraform plan
+terraform plan
 
 # destroy terraform
 # terraform destroy -auto-approve
